@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ucapan spesial untuk ulang tahun seseorang yang istimewa, disertai video dan pesan menyentuh.">
-    <meta name="keywords" content="ucapan ulang tahun, video ucapan, pesan menyentuh, rizma azmi ruflikah">
-    <meta name="author" content="rizma azmi ruflikah">
-    <title>rizma azmi ruflikah - ucapan spesial</title>
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <meta name="author" content="Rizma Azmi Ruflikah">
+    <title>rRizma Azmi Ruflikah</title>
     <style>
         body {
             margin: 0;
@@ -41,18 +41,19 @@
             text-align: justify;
             margin-bottom: 15px;
         }
-        iframe {
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* aspect ratio 16:9 */
+        .video-wrapper {
             position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* aspek rasio 16:9 */
+            height: 0;
         }
-        iframe iframe {
+        .video-wrapper iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            border: none;
         }
         .center-text {
             text-align: center;
@@ -64,8 +65,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>selamat ulang tahun!</h1>
-        <iframe src="https://www.youtube.com/embed/MHCsrKA9gh8" title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>all the best on your special day!</h1>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/MHCsrKA9gh8" title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
         <p class="center-text">bacanya sambil dengerin ini ya!</p>
 
